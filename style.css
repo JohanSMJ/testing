@@ -1,0 +1,65 @@
+#contenedor{
+	background-color: #FDEDEC;
+	margin: 5%;
+	size: 60%;
+	border-style: solid;
+	border-color:#000000;
+	align-items: center;
+}
+h1{
+	font-family: 'Arial Black';
+	background-color: #AED6F1;
+	border-style: solid;
+	border-color:#000000;
+	margin-left: 5%;
+	text-align: center;
+	color: #000000;
+	background-color: 
+	font-size: 30%;
+	padding: 2%;
+	animation-duration: 3s;
+ 	animation-name: title;
+}
+#button{
+	font-family: 'Impact';
+	color: white;
+	font-size: 40px;
+	align-content: center;
+	margin-left: 35%;
+	background-color: #75E96A;
+	border-radius: 25px;
+	padding: 15px;
+}
+button:hover{
+	width: 40%;
+}
+.mensaje{
+	padding: 1%;
+	font-family: 'Comic Sans MS';
+	animation-duration: 3s;
+ 	animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes title {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
